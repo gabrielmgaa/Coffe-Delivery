@@ -54,6 +54,10 @@ export const InputForm = styled.div`
   flex-direction: row;
   gap: 1.2rem;
   margin-top: 1.6rem;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `
 
 export const InputOpcional = styled.div`
@@ -76,7 +80,14 @@ export const InputOpcional = styled.div`
     border-radius: 0px 4px 4px 0px;
     border-left-width: 0;
     font-style: italic;
+    
   }
+
+  @media (max-width: 360px){
+      input{
+        width: 70%;
+      }
+    }
 `
 
 // Payment

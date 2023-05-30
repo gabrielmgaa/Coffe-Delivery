@@ -7,10 +7,29 @@ export const SectionContainerHome = styled.section`
 
   margin-top: 9rem;
 
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    
+
+    img{
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 540px) {
+    img{
+      display: none;
+    }
+  }
 `
 
 export const ContentContainer = styled.div`
   width: 85%;
+
+  @media (max-width: 768px) {
+    margin: auto;
+  }
+  
 `
 
 export const Content = styled.div`

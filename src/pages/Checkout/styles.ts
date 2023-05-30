@@ -8,6 +8,10 @@ export const MainContainerCheckout = styled.main`
 
 
     align-items: flex-start;
+
+    @media (max-width: 1140px) {
+      grid-template-columns: 1fr;
+    }
   }
 `
 
@@ -33,6 +37,14 @@ export const BuyMenuContainer = styled.div`
     font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Baloo 2', sans-serif;
+  }
+
+  @media (max-width: 1140px) {
+      width: 90%;
+  }
+
+  @media (max-width: 430px){
+    width: 100%;
   }
 `
 

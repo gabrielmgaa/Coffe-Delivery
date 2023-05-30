@@ -7,7 +7,9 @@ export const BuyMenu = styled.div`
   border-radius: 6px 44px;
   padding: 4rem;
   background-color: ${props => props.theme['base-card']};
-  `
+
+
+`
 
 export const CoffeItemContainer = styled.div`
   overflow-y: auto;

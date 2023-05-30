@@ -16,9 +16,21 @@ export const MainContainerFinalOrder = styled.main`
     font-size: 2rem;
     color: ${props => props.theme['base-subtitle']};
   }
+
+  @media (max-width: 1036px){
+    grid-template-columns: 1fr;
+
+    img{
+      display: none;
+    }
+  }
 `
 
-export const Container = styled.div``
+export const Container = styled.div`
+  @media (max-width: 1036px){
+    margin: 0 auto 2rem;
+  }
+`
 
 export const FinalOrder = styled.div`
   padding: 4rem;

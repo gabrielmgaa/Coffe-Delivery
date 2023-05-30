@@ -34,6 +34,10 @@ export const MethodPaymentContainer = styled.div`
   display: flex;
   gap: 1.2rem;
   margin-top: 3.2rem;
+
+  @media (max-width: 540px){
+    flex-direction: column;
+  }
 `
 
 export const MethodPayment = styled.div`
