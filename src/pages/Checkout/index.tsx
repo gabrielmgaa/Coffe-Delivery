@@ -1,4 +1,4 @@
-import { FormEvent, useContext } from "react"
+import { useContext } from "react"
 
 import { BuyMenu } from "./components/BuyMenu"
 import { Payment } from "./components/Payment"
