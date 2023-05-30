@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom"
 
 import { formType } from "../Checkout"
 
-import { MapPin } from "@phosphor-icons/react"
+import { MapPin, Timer, CurrencyDollar } from "@phosphor-icons/react"
 
 import * as C from "./styles"
 
@@ -37,7 +37,7 @@ export function FinalOrder() {
           </Item>
           <Item variant="third">
             <span>
-              <MapPin size={18} weight="fill" />
+              <Timer size={18} weight="fill" />
             </span>
             <C.Infos>
               <p>Previsão de entrega</p>
@@ -46,7 +46,7 @@ export function FinalOrder() {
           </Item>
           <Item variant="primary">
             <span>
-              <MapPin size={18} weight="fill" />
+              <CurrencyDollar size={18} weight="fill" />
             </span>
             <C.Infos>
               <p>Pagamento na entrega</p>
