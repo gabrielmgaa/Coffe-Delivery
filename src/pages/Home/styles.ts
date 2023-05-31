@@ -78,6 +78,7 @@ export const Item = styled.div<ItemProps>`
   gap: 0.8rem;
 
   span{
+    margin: auto 0;
     height: 3.4rem;
     padding: 0.8rem;
     border-radius: 999px;
