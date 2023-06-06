@@ -44,7 +44,7 @@ export const BuyMenuContainer = styled.div`
   }
 
   @media (max-width: 430px){
-    width: 100%;
+    width: 90%;
   }
 `
 
