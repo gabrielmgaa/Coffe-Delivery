@@ -11,6 +11,14 @@ export const CoffeItem = styled.div`
     height: 64px;
     object-fit: cover;
   }
+
+  @media (max-width: 360px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
 `
 
 export const CartProduct = styled.div`

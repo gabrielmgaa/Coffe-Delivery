@@ -7,14 +7,15 @@ export const BuyMenu = styled.div`
   border-radius: 6px 44px;
   padding: 4rem;
   background-color: ${props => props.theme['base-card']};
-
-
 `
 
 export const CoffeItemContainer = styled.div`
+/* overflow-x: auto; */
   overflow-y: auto;
   min-height: 20rem;
   max-height: 25rem;
+
+
 
   /* border-bottom: 1px solid ${props => props.theme['base-button']}; */
 
@@ -28,6 +29,7 @@ export const CoffeItemContainer = styled.div`
     background: ${props => props.theme['base-hover']};
     border-radius: 4px;
   }
+
 `
 
 export const TotalContainer = styled.div`

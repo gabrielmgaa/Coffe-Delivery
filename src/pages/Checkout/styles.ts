@@ -42,10 +42,6 @@ export const BuyMenuContainer = styled.div`
   @media (max-width: 1140px) {
       width: 90%;
   }
-
-  @media (max-width: 430px){
-    width: 90%;
-  }
 `
 
 
